@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web OKTZ — Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+                <img src="img/OIP (1).webp" alt="" style="height:32px; border-radius:6px;">
+                WEB<span>OKTZ</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center gap-1">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skill</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Pendidikan">Pendidikan</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Sertifikat">Sertifikat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Project">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+                    <li class="nav-item ms-2">
+                        <a href="#" class="btn-login d-inline-flex align-items-center gap-2">
+                            <i class="bi bi-box-arrow-in-right"></i> Login
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-content">
+    <section class="hero-section">
+        <div class="hero-content">
+
+            <div class="hero-badge" data-aos="fade-down" data-aos-duration="800">
+                <span class="dot"></span>
+                Available for work
+            </div>
+
+            <h1 class="hero-name" data-aos="fade-up" data-aos-delay="150">
+                Hi, I'm <span>Zuan Oktavio</span> 👋
+            </h1>
+
+            <div class="hero-role" data-aos="fade-up" data-aos-delay="300">
+                <span id="typing"></span><span class="cursor"></span>
+            </div>
+
+            <p class="hero-desc" data-aos="fade-up" data-aos-delay="450">
+                Seorang Web Developer yang sedang belajar dan fokus pada Laravel,
+                serta memiliki minat dalam membuat website yang modern dan user-friendly.
+            </p>
+
+            <div class="hero-buttons" data-aos="zoom-in" data-aos-delay="600">
+                <a href="/projects" class="btn-primary-custom">
+                    <i class="bi bi-grid-1x2-fill"></i> Lihat Project
+                </a>
+                <a href="/contact" class="btn-secondary-custom">
+                    <i class="bi bi-send"></i> Contact Me
+                </a>
+            </div>
+
+            <div class="hero-stack" data-aos="fade-up" data-aos-delay="750">
+                <span class="label">Tech Stack:</span>
+                <span class="stack-tag">Laravel</span>
+                <span class="stack-tag">PHP</span>
+                <span class="stack-tag">Bootstrap</span>
+                <span class="stack-tag">MySQL</span>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="row align-items-center g-5">
+
+                
+                <div class="col-lg-5 order-lg-1 order-2" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-img-wrapper">
+                        <div class="about-img-frame">
+                            <img src="img/nael.jpeg" alt="Foto Okt">
+                        </div>
+
+                        
+                        <div class="about-badge-float badge-top" data-aos="zoom-in" data-aos-delay="500">
+                            <span class="badge-icon">💻</span>
+                            <div class="badge-text">
+                                <strong>Laravel Dev</strong>
+                                <span>Full Stack</span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="about-badge-float badge-bottom" data-aos="zoom-in" data-aos-delay="700">
+                            <span class="badge-icon">🚀</span>
+                            <div class="badge-text">
+                                <strong>Open to Work</strong>
+                                <span>Freelance / Magang</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-7 order-lg-2 order-1" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="section-label">About Me</div>
+
+                    <h2 class="about-title">
+                        Kenalan sama <span>Oktz</span> lebih dekat
+                    </h2>
+
+                    <p class="about-desc">
+                        Halo, saya Zuan Oktavio, biasa dipanggil Okta. Saya merupakan seorang Web Developer muda yang sedang
+                        mendalami dunia
+                        pengembangan web. Saya memiliki fokus pada penggunaan Laravel
+                        untuk pengembangan backend dan Bootstrap untuk frontend,
+                        serta berkomitmen untuk menciptakan tampilan yang bersih, modern, dan mudah digunakan.
+                    </p>
+
+
+                    
+                    <ul class="info-list">
+                        <li data-aos="fade-up" data-aos-delay="0">
+                            <span class="info-label">Nama</span>
+                            <span class="info-value">Zuan Oktavio</span>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="80">
+                            <span class="info-label">Domisili</span>
+                            <span class="info-value">Indonesia, Jawa tengah</span>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="160">
+                            <span class="info-label">Status</span>
+                            <span class="info-value">Mahasiswa</span>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="240">
+                            <span class="info-label">Fokus</span>
+                            <span class="info-value">Web Development</span>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="320">
+                            <span class="info-label">Email</span>
+                            <span class="info-value">
+                                <a href="mailto:okt@email.com"></a>
+                            </span>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <span class="info-label">GitHub</span>
+                            <span class="info-value">
+                                <a href="#" target="_blank"></a>
+                            </span>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="skills-section" id="skills">
+        <div class="container">
+
+            <div class="skills-header" data-aos="fade-up">
+                <div class="section-label" style="justify-content:center;">Skills</div>
+                <h2 class="skills-title">Apa yang saya <span>bisa</span></h2>
+                <p class="skills-subtitle">Teknologi yang saya pelajari dan gunakan</p>
+            </div>
+
+            
+            <p class="skill-category-title" data-aos="fade-right">🎨 Frontend</p>
+            <div class="skill-chip-wrap">
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🌐</span>
+                            <span class="chip-name">HTML</span>
+                        </div>
+                        <span class="chip-percent">85%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-frontend" data-width="85"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🎨</span>
+                            <span class="chip-name">CSS</span>
+                        </div>
+                        <span class="chip-percent">80%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-frontend" data-width="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🅱️</span>
+                            <span class="chip-name">Bootstrap</span>
+                        </div>
+                        <span class="chip-percent">80%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-frontend" data-width="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">⚡</span>
+                            <span class="chip-name">JavaScript</span>
+                        </div>
+                        <span class="chip-percent">60%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-frontend" data-width="60"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🔪</span>
+                            <span class="chip-name">Blade</span>
+                        </div>
+                        <span class="chip-percent">85%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-frontend" data-width="85"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <p class="skill-category-title" data-aos="fade-right">⚙️ Backend</p>
+            <div class="skill-chip-wrap">
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🐘</span>
+                            <span class="chip-name">PHP</span>
+                        </div>
+                        <span class="chip-percent">75%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-backend" data-width="75"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🔴</span>
+                            <span class="chip-name">Laravel</span>
+                        </div>
+                        <span class="chip-percent">80%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-backend" data-width="80"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🐬</span>
+                            <span class="chip-name">MySQL</span>
+                        </div>
+                        <span class="chip-percent">70%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-backend" data-width="70"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🔗</span>
+                            <span class="chip-name">REST API</span>
+                        </div>
+                        <span class="chip-percent">55%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-backend" data-width="55"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <p class="skill-category-title" data-aos="fade-right">🛠️ Tools</p>
+            <div class="skill-chip-wrap">
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="0">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🐙</span>
+                            <span class="chip-name">Git & GitHub</span>
+                        </div>
+                        <span class="chip-percent">70%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-tools" data-width="70"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🖥️</span>
+                            <span class="chip-name">VS Code</span>
+                        </div>
+                        <span class="chip-percent">99%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-tools" data-width="99"></div>
+                    </div>
+                </div>
+
+                <div class="skill-chip" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="chip-top">
+                        <div class="chip-left">
+                            <span class="chip-icon">🎭</span>
+                            <span class="chip-name">Figma</span>
+                        </div>
+                        <span class="chip-percent">50%</span>
+                    </div>
+                    <div class="chip-bar">
+                        <div class="chip-bar-fill fill-tools" data-width="50"></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="experience-section" id="Pendidikan">
+        <div class="container">
+
+            <div class="exp-header" data-aos="fade-up">
+                <div class="section-label" style="justify-content:center;">Journey</div>
+                <h2 class="exp-title">Riwayat <span>Pendidikan</span></h2>
+                <p class="exp-subtitle">Perjalanan belajar saya dari awal hingga sekarang</p>
+            </div>
+
+            <div class="exp-tabs" data-aos="zoom-in" data-aos-delay="100">
+                <button class="exp-tab active" onclick="switchTab('pendidikan', this)">🎓 Pendidikan</button>
+                <button class="exp-tab" onclick="switchTab('kursus', this)">📚 Kursus</button>
+            </div>
+
+            
+            <div class="exp-panel active" id="panel-pendidikan">
+                <div class="timeline">
+                                        <div class="timeline-item" data-aos="fade-right" data-aos-delay="0">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <p class="timeline-period">2021 — 2024</p>
+                            <p class="timeline-title">SMK Jurusan Rekayasa Perangkat Lunak</p>
+                            <p class="timeline-place">🏫 SMK Negeri 1 (ganti sesuai sekolahmu)</p>
+                            <p class="timeline-desc">Belajar dasar-dasar pemrograman, basis data, dan pengembangan aplikasi web.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="150">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <p class="timeline-period">2024 — Sekarang</p>
+                            <p class="timeline-title">Mahasiswa Informatika</p>
+                            <p class="timeline-place">🏫 Nama Kampus (ganti sesuai kampusmu)</p>
+                            <p class="timeline-desc">Fokus pada pengembangan web menggunakan Laravel, JavaScript, dan Bootstrap.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="exp-panel" id="panel-kursus">
+                <div class="timeline">
+                                        <div class="timeline-item" data-aos="fade-right" data-aos-delay="0">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <p class="timeline-period">2023</p>
+                            <p class="timeline-title">Belajar Dasar Pemrograman Web</p>
+                            <p class="timeline-place">🖥️ Dicoding Indonesia</p>
+                            <p class="timeline-desc">Mempelajari HTML, CSS, dan JavaScript dasar untuk membangun halaman web.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item" data-aos="fade-right" data-aos-delay="150">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card">
+                            <p class="timeline-period">2024</p>
+                            <p class="timeline-title">Laravel 10 — Build Complete App</p>
+                            <p class="timeline-place">🖥️ Udemy</p>
+                            <p class="timeline-desc">Membangun aplikasi web full-stack menggunakan framework Laravel.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section class="cert-section" id="Sertifikat">
+        <div class="container">
+
+            <div class="cert-header" data-aos="fade-up">
+                <div class="section-label" style="justify-content:center;">Sertifikat</div>
+                <h2 class="cert-title">Bukti <span>Belajar</span></h2>
+                <p class="cert-subtitle">Sertifikat yang pernah saya raih dari berbagai platform</p>
+            </div>
+
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="0">
+                    <div class="cert-card">
+                        <div class="cert-card-top">
+                            <div class="cert-icon">🎓</div>
+                            <span class="cert-badge">Selesai</span>
+                        </div>
+                        <p class="cert-name">Belajar Dasar Pemrograman Web</p>
+                        <p class="cert-issuer">🏢 Dicoding Indonesia</p>
+                        <div class="cert-footer">
+                            <span class="cert-year">📅 2023</span>
+                            <a href="#" target="_blank" class="cert-link">
+                                Lihat Sertifikat <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="150">
+                    <div class="cert-card">
+                        <div class="cert-card-top">
+                            <div class="cert-icon">⚡</div>
+                            <span class="cert-badge">Selesai</span>
+                        </div>
+                        <p class="cert-name">JavaScript Algorithms and Data Structures</p>
+                        <p class="cert-issuer">🏢 freeCodeCamp</p>
+                        <div class="cert-footer">
+                            <span class="cert-year">📅 2023</span>
+                            <a href="#" target="_blank" class="cert-link">
+                                Lihat Sertifikat <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="flip-up" data-aos-delay="300">
+                    <div class="cert-card">
+                        <div class="cert-card-top">
+                            <div class="cert-icon">🔴</div>
+                            <span class="cert-badge">Selesai</span>
+                        </div>
+                        <p class="cert-name">Laravel 10 — Build Complete App</p>
+                        <p class="cert-issuer">🏢 Udemy</p>
+                        <div class="cert-footer">
+                            <span class="cert-year">📅 2024</span>
+                            <a href="#" target="_blank" class="cert-link">
+                                Lihat Sertifikat <i class="bi bi-arrow-up-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="project-section" id="Project">
+        <div class="container">
+
+            <div class="project-header" data-aos="fade-up">
+                <div class="section-label" style="justify-content:center;">Project</div>
+                <h2 class="project-title">Project yang pernah saya <span>buat</span></h2>
+                <p class="project-subtitle">Kumpulan project dari yang sederhana sampai yang lumayan kompleks</p>
+            </div>
+
+            
+            <div class="project-filter" data-aos="zoom-in" data-aos-delay="100">
+                <button class="filter-btn active" onclick="filterProject('all', this)">Semua</button>
+                <button class="filter-btn" onclick="filterProject('web', this)">Web App</button>
+                <button class="filter-btn" onclick="filterProject('laravel', this)">Laravel</button>
+                <button class="filter-btn" onclick="filterProject('frontend', this)">Frontend</button>
+            </div>
+
+            
+            <div class="row g-4" id="project-grid">
+
+                
+                <div class="col-lg-4 col-md-6 project-item" data-cat="laravel web" data-aos="fade-up" data-aos-delay="0">
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <img src="img/sekolah.png" alt="Project 1">
+                            <span class="project-status status-done">✅ Selesai</span>
+                            <div class="project-thumb-overlay">
+                                <a href="#" target="_blank" class="overlay-btn overlay-btn-demo">
+                                    <i class="bi bi-eye"></i> Demo
+                                </a>
+                                <a href="#" target="_blank" class="overlay-btn overlay-btn-code">
+                                    <i class="bi bi-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-card-title">Website Sekolah</p>
+                            <p class="project-card-desc">
+                                Website profil sekolah dengan fitur berita, galeri, dan halaman
+                                informasi menggunakan Laravel dan Bootstrap.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">Laravel</span>
+                                <span class="project-tag">Bootstrap</span>
+                                <span class="project-tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6 project-item" data-cat="frontend web" data-aos="fade-up" data-aos-delay="150">
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <img src="img/sistemkasir.png" alt="Project 2">
+                            <span class="project-status status-done">✅ Selesai</span>
+                            <div class="project-thumb-overlay">
+                                <a href="#" target="_blank" class="overlay-btn overlay-btn-demo">
+                                    <i class="bi bi-eye"></i> Demo
+                                </a>
+                                <a href="#" target="_blank" class="overlay-btn overlay-btn-code">
+                                    <i class="bi bi-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-card-title">Landing Page Produk</p>
+                            <p class="project-card-desc">
+                                Halaman landing page modern untuk produk UMKM dengan desain
+                                responsif dan animasi CSS.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-6 project-item" data-cat="laravel web" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-card">
+                        <div class="project-thumb">
+                            <img src="img/landingpage.png" alt="Project 2">
+                            <div class="project-thumb-placeholder">
+                                🛒
+                                <span>Preview Coming Soon</span>
+                            </div>
+                            <span class="project-status status-progress">🔧 On Progress</span>
+                            <div class="project-thumb-overlay">
+                                <a href="#" target="_blank" class="overlay-btn overlay-btn-code">
+                                    <i class="bi bi-github"></i> Code
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <p class="project-card-title">Sistem Kasir</p>
+                            <p class="project-card-desc">
+                                Aplikasi kasir sederhana dengan fitur manajemen produk,
+                                transaksi, dan laporan penjualan harian.
+                            </p>
+                            <div class="project-tags">
+                                <span class="project-tag">Laravel</span>
+                                <span class="project-tag">MySQL</span>
+                                <span class="project-tag">Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contact-section" id="contact">
+        <div class="container">
+
+            <div class="contact-header" data-aos="fade-up">
+                <div class="section-label" style="justify-content:center;">Contact</div>
+                <h2 class="contact-title">Hubungi <span>Saya</span></h2>
+                <p class="contact-subtitle">Punya project atau mau ngobrol? Langsung aja!</p>
+            </div>
+
+            <div class="row g-5 align-items-start">
+
+                
+                <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="contact-info-title">Ayo ngobrol 👋</p>
+                    <p class="contact-info-desc">
+                        Saya terbuka untuk project freelance, kolaborasi, magang,
+                        atau sekadar sharing seputar web development.
+                        Jangan ragu untuk menghubungi saya!
+                    </p>
+
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="0">
+                        <div class="contact-item-icon">📧</div>
+                        <div>
+                            <p class="contact-item-label">Email</p>
+                            <a href="mailto:okt@email.com" class="contact-item-value">okt@email.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="100">
+                        <div class="contact-item-icon">📱</div>
+                        <div>
+                            <p class="contact-item-label">WhatsApp</p>
+                            <a href="https://wa.me/6281234567890" target="_blank" class="contact-item-value">+62
+                                812-3456-7890</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="200">
+                        <div class="contact-item-icon">📍</div>
+                        <div>
+                            <p class="contact-item-label">Lokasi</p>
+                            <span class="contact-item-value">Indonesia</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+                        <div class="contact-item-icon">🕐</div>
+                        <div>
+                            <p class="contact-item-label">Jam Aktif</p>
+                            <span class="contact-item-value">08.00 — 21.00 WIB</span>
+                        </div>
+                    </div>
+
+                    
+                    <div class="contact-sosmed" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#" target="_blank" class="sosmed-btn">
+                            <i class="bi bi-github"></i> GitHub
+                        </a>
+                        <a href="#" target="_blank" class="sosmed-btn">
+                            <i class="bi bi-linkedin"></i> LinkedIn
+                        </a>
+                        <a href="#" target="_blank" class="sosmed-btn">
+                            <i class="bi bi-instagram"></i> Instagram
+                        </a>
+                        <a href="https://wa.me/6281234567890" target="_blank" class="sosmed-btn">
+                            <i class="bi bi-whatsapp"></i> WhatsApp
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="contact-form-wrap">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label-custom">Nama</label>
+                                    <input type="text" class="form-control-custom" id="contact-name"
+                                        placeholder="Nama kamu">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label class="form-label-custom">Email</label>
+                                    <input type="email" class="form-control-custom" id="contact-email"
+                                        placeholder="email@kamu.com">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label-custom">Subjek</label>
+                            <input type="text" class="form-control-custom" id="contact-subject"
+                                placeholder="Topik pesan kamu">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label-custom">Pesan</label>
+                            <textarea class="form-control-custom" id="contact-message" rows="5" placeholder="Tulis pesanmu di sini..."></textarea>
+                        </div>
+
+                        <button class="btn-send" onclick="sendMessage()">
+                            <i class="bi bi-send-fill"></i> Kirim Pesan
+                        </button>
+
+                        <div class="alert-success-custom" id="alert-success">
+                            ✅ Pesan berhasil dikirim! Saya akan segera membalas.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <div class="contact-footer" data-aos="fade-up" data-aos-offset="0">
+        Dibuat dengan ❤️ oleh <span>Okt</span> · 2026
+    </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 80
+        });
+
+        // Refresh posisi AOS setelah semua gambar/font selesai dimuat
+        window.addEventListener('load', function () {
+            AOS.refresh();
+        });
+    </script>
+
+</body>
+</html>
